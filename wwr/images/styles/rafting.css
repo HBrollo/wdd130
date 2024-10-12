@@ -36,23 +36,23 @@ p{
 .hero h1{
     position: absolute;
     top: 250px;
-    left: 500px;
+    left: 800px;
     text-shadow: 0 0 50px #000000;
     color: var(--secondary-color);
     background-color: var(--accent2-color);
 }
 
-.hero a1 img{
+.hero a img{
     width: 10%;
     position: absolute;
     top: 250px;
-    left: 900px;
+    right: 250px;
 }
 
-.hero a1 p {
+.hero a p {
     position: absolute;
     top: 300px;
-    left: 270px;
+    left: 500px;
     text-shadow: 0 0 2px #000000;
     width: 50%;
     color: var(--secondary-color);
@@ -60,29 +60,28 @@ p{
 
 }
 
-section1{
+section{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
 
-section1 h2{
+.history img{
+    grid-column-start: 3;
+}
+
+section h2{
    grid-column-start:4;
    grid-column-end: span 4;
 }
 
-section1 p{
-    grid-column-start:1;
-    grid-column-end: span4;
-}
-
-section2{
+section{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 5fr;
 }
 
-section2 h2{
+section h2{
     grid-column-start: 3;
     grid-column-end: 6;
 }
